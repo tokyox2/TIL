@@ -1,5 +1,5 @@
 # CentOS7 でのTIP
-# windows install
+# Xwindows install
 ```
 # yum groupinstall install "X Window System"
 # yum install vlgothic-* 文字化け対策
