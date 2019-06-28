@@ -1,4 +1,4 @@
-# SquidでSSL intercept をする －＞でも結果 chrome のSAN(Subject Alternative Name)対応で苦しむんでいる－＞今ココ
+# SquidでSSL intercept をする －＞ chrome のSAN(Subject Alternative Name)対応必要
 CentOSの場合、7以降でないとダメ（squid3以降）
 ```
 # yum install squid
