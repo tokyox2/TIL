@@ -20,6 +20,7 @@ sslcrtd_program /usr/lib64/squid/ssl_crtd -s /var/lib/ssl_db -M 4MB
 # 証明書が保存されるディレクトリの用意
 ```
 #  /usr/lib64/squid/ssl_crtd -c -s /var/lib/ssl_db
+# chown squid:squid /var/lib/ssl_db
 ```
 
 # ルート証明書の作成
