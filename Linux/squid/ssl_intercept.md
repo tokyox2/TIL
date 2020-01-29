@@ -42,3 +42,10 @@ FireFox－＞OK
 Chrome－＞OK のために SAN をつけた
 [Chrome58で以降、この CN= を評価しなくなった模様]<https://tech.torico-corp.com/blog/chrome58-https-ssl-cert-san-error/>:TORICO 技術開発ブログより  
 
+# 指定ドメインだけ Google Apps を使用させたい場合
+squid.conf に追記！きもは ドメインの羅列と acl の記述
+```
+acl to_google dstdomain .google.com
+request_header_add X-GoogApps-Allowed-Domains 許可ドメイン1,許可ドメイン2,許可ドメイン3,許可ドメイン4 to_google
+```
+
